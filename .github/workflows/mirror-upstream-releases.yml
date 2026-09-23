@@ -12,7 +12,7 @@ jobs:
   mirror-releases:
     runs-on: ubuntu-latest
     env:
-      UPSTREAM_REPO: KonradIT/C5VRX
+      UPSTREAM_REPO: Twotoz/C5VRX
       FORK_REPO: ${{ github.repository }}
       GH_TOKEN: ${{ github.token }}
     steps:
